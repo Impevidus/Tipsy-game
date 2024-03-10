@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/black_wood"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpinMainActivity">
+
+  <ImageView
+      android:id="@+id/wheel"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerInside"
+      android:src="@drawable/spin_wheel"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.508"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.498" />
+
+  <ImageView
+      android:id="@+id/arrow"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginEnd="11dp"
+      android:src="@drawable/spin_arrow"
+      app:layout_constraintBottom_toBottomOf="@+id/wheel"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/wheel" />
+
+
+
+</RelativeLayout>
